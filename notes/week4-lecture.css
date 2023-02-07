@@ -1,0 +1,33 @@
+.title {
+    color: red; font-size: 500%
+}
+
+.thisisaclass {
+    color: bisque
+}
+
+/*
+Which will apply? The .title or the .thisisaclass to h1?
+.thisisaclass comes later, so it will override .title. Cascade rule.
+*/
+
+.divtest {
+    color:chartreuse
+}
+
+#first { 
+    color:blueviolet
+}
+
+/*
+Which will apply? The .title or the #first to p?
+#first is an id, id is more specific than a class .title. Rule of specificity prioritizes #first, so p is purple.
+*/
+
+/* h1 {
+    font-size: 500%; color: red
+} */
+
+html {
+    background-color: aqua;
+}
