@@ -79,11 +79,11 @@ body {
   }
   
   /* contents */
-  html {
+   html {
     font-family: 'Helvetica neue', Arial, 'sans serif';
     font-size: 10px;
     background-color: #ccc;
-  }
+   }
 
   h2 {
     margin: 0;
