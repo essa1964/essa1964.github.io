@@ -1,7 +1,7 @@
 # essa1964.github.io
 
 ## Projects
-- HTML
+- [HTML](https://essa1964.github.io/html-midterm/page5.html)
 - CSS
 - JS 
 
@@ -10,7 +10,7 @@
 - [ICA2](https://docs.google.com/document/d/1tqk4k1uLsyX_O9SwFNzOB49lZoGr_ayDWr_OBqq4Kj4/edit?usp=sharing) 
 - [ICA3](https://docs.google.com/document/d/1BZghy9bqbswsHSv03hMNJnK8bTgYcjfNMDozwyfc0gI/edit?usp=sharing)
 - [ICA4](https://essa1964.github.io/ica/ica4.html)
-- ICA5
+- [ICA5](https://essa1964.github.io/ica/ica5/ica5.html)
 - ICA6
 - ICA7
 - ICA8
