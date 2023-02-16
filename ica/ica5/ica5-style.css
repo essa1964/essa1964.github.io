@@ -19,8 +19,8 @@
     border-top: 1mm solid rgb(147, 32, 32);
     border-bottom: 1mm solid rgb(147, 32, 32);
     background: linear-gradient(to bottom, rgba(0, 0, 0, .20), rgba(0,0,0,0) 20%, rgba(0,0,0,0) 80%, rgba(0, 0, 0, .20)),
-    url(/img/top-image.png) no-repeat left top, 
-    url(/img/bottom-image.png) no-repeat left bottom;
+    url(/ica/ica5/top-image.png) no-repeat left top, 
+    url(/ica/ica5/bottom-image.png) no-repeat left bottom;
   }
   
   address {
@@ -30,7 +30,7 @@
   }
   
   h1 {
-    background: no-repeat url("../img/logo.png");
+    background: no-repeat url("/ica/ica5/logo.png");
     position: absolute;
     top: 12mm;
     left: 20mm;
