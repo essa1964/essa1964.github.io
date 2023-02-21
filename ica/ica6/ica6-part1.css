@@ -9,7 +9,13 @@ body{
     border-width: 3px;
     border-radius:10px;
     background-color: mediumseagreen;
-    position:relative;
+    position: relative;
+}
+
+#text1{
+    position: relative;
+    left: 100%;
+    top: 50px;
 }
 
 #box2{
@@ -19,15 +25,24 @@ body{
     border-style: solid;
     border-radius:3px;
     border-color:purple;
-    position:relative;
+    position: relative;
     left: 40vw;
     background-color: mediumvioletred;
 }
 
+#text2{
+    position: absolute;
+    top: 27vh; /* positions the text to the bottom left of the div, vh: Relative to 1% of the height of the viewport**/
+}
+
 #box3{
-position: sticky;
-width: 73vw;
-height: 175vh;
-border-radius: 10px;
-background-color: orangered;
+    width: 73vw;
+    height: 175vh;
+    border-radius: 10px;
+    background-color: orangered;
+}
+
+#text3{
+    position: sticky;
+    top: 0; /*says when the position of the text has 0 height above it, stick to the top of the screen*/
 }
