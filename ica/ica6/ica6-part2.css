@@ -10,20 +10,36 @@ body{
 #flex-parent p{
     padding:5vw;
 }
+#flex-child1{
+    order: 2;
+}
+#flex-child2{
+    order: 3;
+}
+#flex-child3{
+    order: 1;
+}
+#flex-child4{
+    order: 0;
+}
 
 
 #grid-parent{
-    display:grid;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+
 }
 
 #grid-parent h1{
     background-color: grey;
     padding:3vw 5vh;
     margin:5vw;
+    text-align: center;
     
 }
 #no0{
-
+    grid-column: 2;
 }
 #no1{
 
