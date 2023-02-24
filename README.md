@@ -11,7 +11,7 @@
 - [ICA3](https://docs.google.com/document/d/1BZghy9bqbswsHSv03hMNJnK8bTgYcjfNMDozwyfc0gI/edit?usp=sharing)
 - [ICA4](https://essa1964.github.io/ica/ica4.html)
 - [ICA5](https://essa1964.github.io/ica/ica5/ica5.html)
-- ICA6
+- [ICA6](https://essa1964.github.io/ica/ica6/ica6-part1.html)
 - ICA7
 - ICA8
 - ICA9
