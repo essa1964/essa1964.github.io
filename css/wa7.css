@@ -1,0 +1,90 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: red;
+    /*I want a rainbow background color. I want the most obnoxious page ever*/
+    animation: rainbow;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes rainbow{
+    0% {background-color: red;}
+    20% {background-color: orange;}
+    35% {background-color: yellow;}
+    50% {background-color: chartreuse;}
+    65% {background-color: turquoise;}
+    85% {background-color: blue;}
+    100% {background-color: purple;}
+}
+
+body h1{
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+nav{
+    height: 50vh;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height:20px;
+    background-color: black;
+}
+nav a{
+    width:10vw;
+    text-align: center;
+    text-decoration: none;
+    color:white;
+    font-family: 'Courier New', Courier, monospace;
+
+    transition: 1s;
+}
+
+nav a:hover{
+    color: red;
+}
+
+img{
+    width:30vw;
+    height: 30vh;
+}
+
+#red-ball{
+    background-color: crimson;
+    background-image: url(/img/Black_question_mark.png);
+    background-position: center;
+    background-repeat: no repeat;
+    background-size: contain;
+    /*I want a rainbow ball as well*/
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: absolute;
+    right: 350px;
+    top: 20px;
+    animation: rainbowball;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+
+    transition: 2s;
+}
+
+#red-ball:hover{
+    width: 800px;
+    height: 800px;
+    transition-duration: 10s;
+}
+
+@keyframes rainbowball{
+    0% {background-color: crimson;}
+    20% {background-color: coral;}
+    35% {background-color: rgb(247, 224, 96);}
+    50% {background-color: palegreen;}
+    65% {background-color: paleturquoise;}
+    85% {background-color: steelblue;}
+    100% {background-color: violet;}
+}
