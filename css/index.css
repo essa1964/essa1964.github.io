@@ -12,23 +12,33 @@ nav {
     left: 47vw;
 }
 
-#logo {
-    background-color: aqua;
-    width: 20%;
-    height: 20%;
-    position: relative;
-    top: 0em;
+nav a:link{
+    text-decoration: none;
+    color: black;
 }
 
-#logo img {
-    max-width: 100%;
-    object-position: top;
+nav a:hover{
+    color: darkgray;
+    transition: 1s;
 }
 
-#aboutBox {
+/* #about {
+    display: flex;
+    flex-direction: row;
+} */
+
+#textbox {
+    background-color: bisque;
     font-family: Arial, Helvetica, sans-serif;
     position: relative;
+    width: 50%;
+    border: 1em gray;
 }
+
+/* #about img {
+    background-color: aqua;
+    width: 50%;
+} */
 
 #workBox {
     display: flex;
@@ -38,6 +48,13 @@ nav {
 
 #workBox h2 {
     font-family: Arial, Helvetica, sans-serif;
+}
+
+#gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 #gallery img {
