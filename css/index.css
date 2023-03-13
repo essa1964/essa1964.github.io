@@ -1,15 +1,19 @@
+body {
+    background-color: lavenderblush;
+}
+
 nav {
-    background-color: chartreuse;
+    background-color: rgb(255, 151, 112);
     font-family: Arial, Helvetica, sans-serif;
     font-size: larger;
-    width: 50vw;
+    height: 7vh;
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
     gap: 10em;
     position: relative;
     top: 3vh;
-    left: 47vw;
 }
 
 nav a:link{
@@ -18,43 +22,65 @@ nav a:link{
 }
 
 nav a:hover{
-    color: darkgray;
+    color: rgb(233, 255, 112);
+    
     transition: 1s;
 }
 
-/* #about {
+#about {
+    background-color: rgba(203, 178, 178, 0.55);
+    position: relative;
     display: flex;
     flex-direction: row;
-} */
+    margin-top: 5em;
+}
 
 #textbox {
-    background-color: bisque;
+    background-color: rgba(203, 178, 178, 0.55);
     font-family: Arial, Helvetica, sans-serif;
     position: relative;
     width: 50%;
-    border: 1em gray;
+    margin: 2em;
+    padding: 5em;
 }
 
-/* #about img {
-    background-color: aqua;
-    width: 50%;
-} */
+h1{
+    color: rgb(255, 112, 166);
+}
+
+#about img {
+    width: 30%;
+    height: 30%;
+    position: relative;
+    top: 1em;
+} 
 
 #workBox {
+    background-color: rgba(203, 178, 178, 0.55);
+    position: relative;
+    margin-top: 5em;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 #workBox h2 {
+    background-color: rgba(203, 178, 178, 0.55);
+    color: rgb(255, 112, 166);
     font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    text-align: center;
+    width: 30vw;
+    margin: 1em;
+    padding: 1em;
 }
 
 #gallery {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 #gallery img {
@@ -62,5 +88,24 @@ nav a:hover{
 }
 
 #contactBox {
+    background-color: rgba(203, 178, 178, 0.55);
+    position: relative;
+    margin-top: 5em;
+    margin-bottom: 5em;
+    height: 40vh;
+}
+
+#contact {
+    background-color: rgba(203, 178, 178, 0.55);
     font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    width: 40vw;
+    margin: 2em;
+    padding: 1em;
+    top: 5vh;
+    left: 25vw;
+}
+
+#contact h2{
+    color: rgb(255, 112, 166);
 }
