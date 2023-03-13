@@ -2,7 +2,7 @@
 
 ## Projects
 - [HTML](https://essa1964.github.io/html-midterm/page5.html)
-- CSS
+- [CSS](https://essa1964.github.io)
 - JS 
 
 ## In-Class Assignments
