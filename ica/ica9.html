@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peepee Poopoo</title>
+    <!--adding CSS in document-->
+    <style>
+        #button {
+            border: 10px solid darkmagenta;
+            border-radius: 30px;
+            background-color: magenta;
+            max-width: 250px;
+            padding: 25px 50px;
+            font-size: 50px;
+            text-align: center;
+        }
+        #button2 {
+            border: 10px solid darkblue;
+            border-radius: 30px;
+            background-color: blue;
+            max-width: 250px;
+            padding: 25px 50px;
+            font-size: 50px;
+            text-align: center;
+        }
+        #button3 {
+            border: 10px solid darksalmon;
+            border-radius: 30px;
+            background-color: pink;
+            max-width: 250px;
+            padding: 25px 50px;
+            font-size: 50px;
+            text-align: center;
+
+            position: absolute;
+            top: 10px;
+            right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div id="button">
+        <p>Click me!</p>
+    </div>
+    <div id="button2">
+        <p>NO, CLICK ME!</p>
+    </div>
+    <div id="button3">
+        <p>click me hehe :)</p>
+    </div>
+
+    <!-- <div>
+
+        <input type="submit" value="Submit guess" class="guessSubmit">
+    </div> -->
+
+    <!--HTML reads anything in the script as a Javascript tag-->
+    <!--bottom of the body ensures that everything else is loaded before the Javascript-->
+    <script>
+        console.log("Hello, World"); // Spits out "Hello, World" in the console, useful for loops and such
+        let btn = document.querySelector("#button"); //query selector allows us to select things and save it in a variable
+        let btn2 = document.querySelector("#button2");
+        let btn3 = document.querySelector("#button3");
+        // console.log(btn);
+
+        // recursion --> the function call will still work if the function is defined later
+        function changeBtn() {
+            console.log("This worked!");
+            btn.textContent = "I am the biggest bird";
+            btn.style.backgroundColor = "darkmagenta";
+            btn.style.border = "10px solid magenta";
+            btn.style.color = "white";
+        }
+        function changeBtn2() {
+            console.log("This worked!");
+            btn2.textContent = "I am the biggest bird";
+            btn2.style.backgroundColor = "darkblue";
+            btn2.style.border = "10px solid blue";
+            btn2.style.color = "white";
+        }
+        function changeBtn3() {
+            console.log("This worked!");
+            window.location.replace("https://media.istockphoto.com/id/140472118/photo/middle-finger.jpg?s=1024x1024&w=is&k=20&c=X9LoGt3WX2d0SwnIQgc1fzuC4VaQi4g2V-n3z3P8VrQ=")
+            btn3.textContent = "fuck you.";
+            btn3.style.backgroundColor = "red";
+            btn3.style.border = "10px solid black";
+            btn3.style.color = "white";
+        }
+
+        btn.addEventListener('click', changeBtn); // when a user clicks on the button, run the function changeBtn
+        btn2.addEventListener('click', changeBtn2);
+        btn3.addEventListener('click', changeBtn3);
+
+        // function checkGuess() {
+        //     alert("I am a placeholder")
+        //     alert(userGuess.value)
+        // }
+
+        // let guessBtn = document.querySelector(".guessSubmit");
+        // let userGuess = 
+        // guessBtn.addEventListener('click', checkGuess);
+
+    </script>
+</body>
+</html>
