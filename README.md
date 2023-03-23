@@ -32,7 +32,7 @@
 - [WA7](https://essa1964.github.io/wa/wa7.html)
 - WA8
 - [WA9](https://essa1964.github.io/wa/wa9.html)
-- WA10
+- [WA10](https://essa1964.github.io/wa/wa10/wa10.html)
 - WA11
 - WA12
 - WA13
