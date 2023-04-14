@@ -34,7 +34,7 @@
 - [WA9](https://essa1964.github.io/wa/wa9.html)
 - [WA10](https://essa1964.github.io/wa/wa10/wa10.html)
 - [WA11](https://essa1964.github.io/wa/wa11/wa11.html)
-- WA12
+- [WA12](https://essa1964.github.io/wa/wa12/wa12.html)
 - WA13
 - WA14
 - WA15
