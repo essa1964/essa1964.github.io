@@ -18,7 +18,7 @@
 - [ICA10](https://essa1964.github.io/ica/ica10.html)
 - [ICA11](https://essa1964.github.io/ica/ica11/ica11.html)
 - [ICA12](https://essa1964.github.io/ica/ica12/ica12.html)
-- [ICA13](https://essa1964.github.io/wa/wa13/wa13.html)
+- [ICA13](https://essa1964.github.io/ica/ica13/ica13.html)
 - ICA14
 - ICA15
 
