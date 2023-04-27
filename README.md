@@ -19,7 +19,7 @@
 - [ICA11](https://essa1964.github.io/ica/ica11/ica11.html)
 - [ICA12](https://essa1964.github.io/ica/ica12/ica12.html)
 - [ICA13](https://essa1964.github.io/ica/ica13/ica13.html)
-- ICA14
+- [ICA14](https://essa1964.github.io/ica/ica14.html)
 - ICA15
 
 ## Weekly Assignments
@@ -36,5 +36,5 @@
 - [WA11](https://essa1964.github.io/wa/wa11/wa11.html)
 - [WA12](https://essa1964.github.io/wa/wa12/wa12.html)
 - [WA13](https://essa1964.github.io/wa/wa13/wa13.html)
-- WA14
+- [WA14](https://essa1964.github.io/wa/wa14.html)
 - WA15
