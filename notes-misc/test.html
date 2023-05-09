@@ -4,6 +4,22 @@
     <title>Esther's Annie Party World</title>
     <meta name="description" content="Textures - A-Frame School">
     <script src="https://aframe.io/releases/0.5.0/aframe.min.js"></script>
+    <script>
+      AFRAME.registerComponent('handle-events', {
+        init: function () {
+          var el = this.el;  // <a-box>
+          el.addEventListener('mouseenter', function () {
+            el.setAttribute('color', '#24CAFF');  
+          });
+          el.addEventListener('mouseleave', function () {
+            el.setAttribute('color', '#EF2D5E');  
+          });
+          el.addEventListener('click', function () {
+            el.setAttribute('scale', {x: 2, y: 1, z: 2});
+          });
+        } 
+      });
+    </script>
   </head>
   <body> <!--I may change all of these faces to have them be me instead so the website is personalized and relevant-->
     <a-scene>
