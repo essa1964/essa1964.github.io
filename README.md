@@ -3,7 +3,7 @@
 ## Projects
 - [HTML](https://essa1964.github.io/html-midterm/page5.html)
 - [CSS](https://essa1964.github.io/notes-misc/ProjectCSS.html)
-- JS 
+- [JS](https://essa1964.github.io)
 
 ## In-Class Assignments
 - [ICA1](https://docs.google.com/document/d/1XiGDGfpA19V2V18-TzbVtZv05rnNuBrOoVu0iLN0fJw/edit?usp=sharing)
