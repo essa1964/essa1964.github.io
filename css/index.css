@@ -121,16 +121,6 @@ h1{
     padding: 1em;
 }
 
-#gallery {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-
-#gallery img {
-    max-width: 30%;
-}
 
 @media only screen and (max-width: 500px){
     #workBox{
@@ -142,12 +132,6 @@ h1{
         font-size: 22px;
         margin: 10px;
         padding: 10px;
-    }
-    #gallery{
-        justify-content: center;
-    }
-    #gallery img{
-        max-width: 95%;
     }
 }
 
