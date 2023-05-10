@@ -24,116 +24,129 @@
     </script>
   </head>
   <body> <!--I may change all of these faces to have them be me instead so the website is personalized and relevant-->
-    <a-scene>
-      
-      <a-entity id="camera" camera="userHeight: 1.6" look-controls cursor="rayOrigin: mouse"></a-entity>
+    <a-scene> <!--The indentation is all messed up because I copied from Glitch, then copied that html into this html... It still works tho-->
+        <a-entity id="camera" camera="userHeight: 1.6" look-controls cursor="rayOrigin: mouse"></a-entity>
 
-      <!-- <a-box navigate-on-click="url: http://google.com"></a-box>
+        <a-sphere navigate-on-click="url: http://google.com" src="/img/annieFull.png" rotation="0 270 0" radius="4" position="1 0 -20" shadow
+                event-set__enter="_event: mouseenter; color: #FF0103"
+                event-set__leave="_event: mouseleave; color: none">
+            <a-animation attribute="position"
+                dur="1000"
+                fill="forwards"
+                to="0 0 0"
+                direction="alternate"
+                begin="click"></a-animation>
+        </a-sphere>
 
-      <a-box navigate-on-click="url: http://google.com" position="-1 0.5 -3" rotation="0 45 0" color="#4CC3D9" shadow
-             event-set__enter="_event: mouseenter; color: #026fc9"
-             event-set__leave="_event: mouseleave; color: #4CC3D9"> -->
-        <!-- This animation begins when the box is clicked with the mouse. -->
-        <!-- <a-animation attribute="rotation"
-               dur="3000"
-               fill="forwards"
-               to="0 360 0"
-               direction="alternate"
-               begin="click"></a-animation>
-      </a-box>
+        <a-sphere src="/img/annieFull.png" rotation="0 260 -20" radius="4" position="10 10 -20" shadow
+                event-set__enter="_event: mouseenter; color: #01FFCD"
+                event-set__leave="_event: mouseleave; color: none">
+            <a-animation attribute="position"
+                dur="1000"
+                fill="forwards"
+                to="0 0 0"
+                direction="alternate"
+                begin="click"></a-animation>
+        </a-sphere>
 
-      <a-sphere position="0 1.25 -5" radius="1.25" color="#EF2D5E" shadow
-                event-set__enter="_event: mouseenter; color: #026fc9"
-                event-set__leave="_event: mouseleave; color: #EF2D5E"> -->
-        
-        <!-- This animation begins when the sphere is clicked with the mouse. -->
-        <!-- <a-animation attribute="position"
-               dur="1000"
-               fill="forwards"
-               to="0 2.5 -6"
-               direction="alternate"
-               begin="click"></a-animation>
-      </a-sphere>
-      <a-plane position="0 0 -4" rotation="-90 0 0" width="4" height="4" color="#7BC8A4" shadow></a-plane>
-      <a-sky color="#ECECEC"></a-sky> -->
+        <a-sphere src="/img/annieFull.png" rotation="-20 120 -20" radius="4" position="15 10 20" shadow
+                event-set__enter="_event: mouseenter; color: #7FFF01"
+                event-set__leave="_event: mouseleave; color: none">
+            <a-animation attribute="position"
+                dur="1000"
+                fill="forwards"
+                to="0 0 0"
+                direction="alternate"
+                begin="click"></a-animation>
+        </a-sphere>
 
+        <a-sphere src="/img/annieFull.png" rotation="0 280 0" radius="4" position="-15 1 -15"
+                event-set__enter="_event: mouseenter; color: #13FF00"
+                event-set__leave="_event: mouseleave; color: none">
+            <a-animation attribute="position"
+                dur="1000"
+                fill="forwards"
+                to="0 0 0"
+                direction="alternate"
+                begin="click"></a-animation>
+        </a-sphere>
 
-      <a-sphere navigate-on-click="url: http://google.com" src="/img/annieFull.png" rotation="0 270 0" radius="4" position="1 0 -20" shadow
-            event-set__enter="_event: mouseenter; color: #FF0103"
-            event-set__leave="_event: mouseleave; color: none">
-        <a-animation attribute="position"
-            dur="1000"
-            fill="forwards"
-            to="0 0 0"
-            direction="alternate"
-            begin="click"></a-animation>
-          </a-sphere>
+        <a-sphere src="/img/annieFull.png" rotation="0 0 0" radius="4" position="-20 10 0"
+                event-set__enter="_event: mouseenter; color: #2D01FF"
+                event-set__leave="_event: mouseleave; color: none">
+            <a-animation attribute="position"
+                dur="1000"
+                fill="forwards"
+                to="0 0 0"
+                direction="alternate"
+                begin="click"></a-animation>
+        </a-sphere>
 
-      <a-sphere src="/img/annieFull.png" rotation="0 260 -20" radius="4" position="10 10 -20" shadow
-            event-set__enter="_event: mouseenter; color: #01FFCD"
-            event-set__leave="_event: mouseleave; color: none">
-        <a-animation attribute="position"
-            dur="1000"
-            fill="forwards"
-            to="0 0 0"
-            direction="alternate"
-            begin="click"></a-animation>
-          </a-sphere>
+        <a-sphere src="/img/annieFull.png" rotation="0 10 0" radius="4" position="-10 0 5"
+                event-set__enter="_event: mouseenter; color: #FF00AB"
+                event-set__leave="_event: mouseleave; color: none">
+            <a-animation attribute="position"
+                dur="1000"
+                fill="forwards"
+                to="0 0 0"
+                direction="alternate"
+                begin="click"></a-animation>
+        </a-sphere>
 
-      <a-sphere src="/img/annieFull.png" rotation="-20 120 -20" radius="4" position="15 10 20" shadow
-            event-set__enter="_event: mouseenter; color: #7FFF01"
-            event-set__leave="_event: mouseleave; color: none">
-        <a-animation attribute="position"
-            dur="1000"
-            fill="forwards"
-            to="0 0 0"
-            direction="alternate"
-            begin="click"></a-animation>
-          </a-sphere>
+        <a-sphere src="/img/annieFull.png" rotation="0 180 0" radius="4" position="20 1 0"
+                event-set__enter="_event: mouseenter; color: #6B01FF"
+                event-set__leave="_event: mouseleave; color: none">
+            <a-animation attribute="position"
+                dur="1000"
+                fill="forwards"
+                to="0 0 0"
+                direction="alternate"
+                begin="click"></a-animation>
+        </a-sphere>
 
-      <a-sphere src="/img/annieFull.png" rotation="0 280 0" radius="4" position="-15 1 -15"
-            event-set__enter="_event: mouseenter; color: #13FF00"
-            event-set__leave="_event: mouseleave; color: none">
-        <a-animation attribute="position"
-            dur="1000"
-            fill="forwards"
-            to="0 0 0"
-            direction="alternate"
-            begin="click"></a-animation>
-          </a-sphere>
+        <a-sphere src="/img/annieFull.png" rotation="0 100 0" radius="4" position="5 -1 20"
+                event-set__enter="_event: mouseenter; color: #52CCFF"
+                event-set__leave="_event: mouseleave; color: none">
+            <a-animation attribute="position"
+                dur="1000"
+                fill="forwards"
+                to="0 0 0"
+                direction="alternate"
+                begin="click"></a-animation>
+        </a-sphere>
 
-      <a-sphere src="/img/annieFull.png" rotation="0 0 0" radius="4" position="-20 10 0"
-            event-set__enter="_event: mouseenter; color: #2D01FF"
-            event-set__leave="_event: mouseleave; color: none">
-        <a-animation attribute="position"
-            dur="1000"
-            fill="forwards"
-            to="0 0 0"
-            direction="alternate"
-            begin="click"></a-animation>
-          </a-sphere>
+        <a-sphere src="/img/annieFull.png" rotation="0 180 0" radius="4" position="15 10 -5"
+                event-set__enter="_event: mouseenter; color: #FF007E"
+                event-set__leave="_event: mouseleave; color: none">
+            <a-animation attribute="position"
+                dur="1000"
+                fill="forwards"
+                to="0 0 0"
+                direction="alternate"
+                begin="click"></a-animation>
+        </a-sphere>
 
-      <a-sphere src="/img/annieFull.png" rotation="0 10 0" radius="4" position="-10 0 5"
-            event-set__enter="_event: mouseenter; color: #FF00AB"
-            event-set__leave="_event: mouseleave; color: none">
-        <a-animation attribute="position"
-            dur="1000"
-            fill="forwards"
-            to="0 0 0"
-            direction="alternate"
-            begin="click"></a-animation>
-          </a-sphere>
+        <a-sphere src="/img/annieFull.png" rotation="-20 130 -20" radius="4" position="10 20 10"
+                event-set__enter="_event: mouseenter; color: #FF0103"
+                event-set__leave="_event: mouseleave; color: none">
+            <a-animation attribute="position"
+                dur="1000"
+                fill="forwards"
+                to="0 0 0"
+                direction="alternate"
+                begin="click"></a-animation>
+        </a-sphere>
 
-      <a-sphere src="/img/annieFull.png" rotation="0 180 0" radius="4" position="20 1 0"
-            event-set__enter="_event: mouseenter; color: #6B01FF"
-            event-set__leave="_event: mouseleave; color: none">
-        <a-animation attribute="position"
-            dur="1000"
-            fill="forwards"
-            to="0 0 0"
-            direction="alternate"
-            begin="click"></a-animation>
-          </a-sphere>
+        <a-sphere src="/img/annieFull.png" rotation="-20 0 -20" radius="4" position="-10 20 -10"
+                event-set__enter="_event: mouseenter; color: #FF0103"
+                event-set__leave="_event: mouseleave; color: none">
+            <a-animation attribute="position"
+                dur="1000"
+                fill="forwards"
+                to="0 0 0"
+                direction="alternate"
+                begin="click"></a-animation>
+        </a-sphere>
       
 
       <a-sky src="/img/QualityUncomfortableEdited2.jpg"></a-sky>
