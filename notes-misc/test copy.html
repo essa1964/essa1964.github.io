@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head> <!--Tested it out - this works!-->
+    <title>Esther's Annie Party World</title>
+    <meta name="description" content="Textures - A-Frame School">
+    <script src="https://aframe.io/releases/0.5.0/aframe.min.js"></script>
+    <script src="https://unpkg.com/aframe-event-set-component@3.0.3/dist/aframe-event-set-component.min.js"></script>
+  </head>
+  <body> <!--I may change all of these faces to have them be me instead so the website is personalized and relevant-->
+    <a-scene>
+      
+      <a-box position="-1 0.5 -3" rotation="0 45 0" color="#4CC3D9"
+             event-set__enter="_event: mouseenter; color: #8FF7FF"
+             event-set__leave="_event: mouseleave; color: #4CC3D9"></a-box>
+      
+      <a-sphere position="0 1.25 -5" radius="1.25" color="#EF2D5E"
+                event-set__down="_event: mousedown; scale: 1.2 1.2 1.2"
+                event-set__up="_event: mouseup; scale: 1 1 1"
+                event-set__leave="_event: mouseleave; scale: 1 1 1"></a-sphere>
+      
+      <a-cylinder position="1 0.75 -3" radius="0.5" height="1.5" color="#FFC65D"
+                  event-set__enter="_event: mouseenter; _target: #cylinderText; visible: true"
+                  event-set__leave="_event: mouseleave; _target: #cylinderText; visible: false">
+        <a-text id="cylinderText" value="This is a cylinder" align="center" color="#FFF" visible="false" position="0 -0.55 0.55"
+                geometry="primitive: plane; width: 1.75" material="color: #333"></a-text>
+      </a-cylinder>
+      
+      <a-plane position="0 0 -4" rotation="-90 0 0" width="4" height="4" color="#7BC8A4"
+               event-set__down="_event: mousedown; material.wireframe: true"
+               event-set__up="_event: mouseup; material.wireframe: false"
+               event-set__leave="_event: moulseleave; material.wireframe: false"></a-plane>
+
+
+      <a-sphere src="/img/annieFull.png" rotation="0 270 0" radius="4" position="1 0 -20">
+        <a-link href="/index.html" title="My Homepage"></a-link>
+      </a-sphere>
+      <a-sphere src="/img/annieFull.png" rotation="0 260 -20" radius="4" position="10 10 -20"></a-sphere>
+      <a-sphere src="/img/annieFull.png" rotation="-20 120 -20" radius="4" position="15 10 20"></a-sphere>
+      <a-sphere src="/img/annieFull.png" rotation="0 280 0" radius="4" position="-15 1 -15"></a-sphere>
+      <a-sphere src="/img/annieFull.png" rotation="0 0 0" radius="4" position="-20 10 0"></a-sphere>
+      <a-sphere src="/img/annieFull.png" rotation="0 10 0" radius="4" position="-10 0 5"></a-sphere>
+      <a-sphere src="/img/annieFull.png" rotation="0 180 0" radius="4" position="20 1 0"></a-sphere>
+      
+      <a-sky src="/img/QualityUncomfortableEdited2.jpg"></a-sky>
+
+      <a-camera>
+        <a-cursor></a-cursor>
+      </a-camera>
+      
+    </a-scene>
+  </body>
+</html>
